@@ -1,0 +1,98 @@
+site_name: Python for Computer Security
+site_description: A beginner-first Python course for MSc Computer Security students
+site_url: https://YOUR_GITHUB_USERNAME.github.io/python-for-computer-security/
+repo_url: https://github.com/YOUR_GITHUB_USERNAME/python-for-computer-security
+repo_name: python-for-computer-security
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.path
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Start Here:
+      - Learning roadmap: roadmap.md
+      - Install Python: getting-started/install-python.md
+      - VS Code: getting-started/vscode.md
+      - Terminal basics: getting-started/terminal.md
+      - Your first program: getting-started/first-program.md
+  - Python Basics:
+      - Variables and input/output: python-basics/variables.md
+      - Data types: python-basics/data-types.md
+      - Operators and comparisons: python-basics/operators.md
+      - Conditions: python-basics/conditions.md
+      - Loops: python-basics/loops.md
+      - Functions and scope: python-basics/functions.md
+      - Errors and exceptions: python-basics/errors.md
+  - Data Structures:
+      - Lists and slicing: data-structures/lists.md
+      - Dictionaries: data-structures/dictionaries.md
+      - Sets: data-structures/sets.md
+      - Tuples and comprehensions: data-structures/tuples.md
+  - Practical Python:
+      - Files and pathlib: practical-python/files.md
+      - CSV and JSON: practical-python/csv-json.md
+      - Regular expressions: practical-python/regex.md
+      - Modules, packages, and pip: practical-python/modules.md
+      - Virtual environments and arguments: practical-python/virtual-environments.md
+  - Python for Computer Security:
+      - Networking foundations: security-python/networking-basics.md
+      - IP addresses: security-python/ip-addresses.md
+      - Sockets: security-python/sockets.md
+      - HTTP requests and responses: security-python/http-requests.md
+      - Encoding and hashing: security-python/hashing.md
+      - Log analysis: security-python/log-analysis.md
+      - Secure coding: security-python/secure-coding.md
+  - Labs:
+      - Lab guide: labs/index.md
+      - Lab 01 - Hello Python: labs/lab-01-hello-python.md
+      - Lab 02 - Password strength: labs/lab-02-password-strength.md
+      - Lab 03 - IP validator: labs/lab-03-ip-validator.md
+      - Lab 04 - Security log parser: labs/lab-04-log-parser.md
+      - Lab 05 - Failed login counter: labs/lab-05-failed-logins.md
+      - Lab 06 - SHA-256 file hash: labs/lab-06-file-hash.md
+      - Lab 07 - JSON event parser: labs/lab-07-json-events.md
+      - Lab 08 - HTTP header inspector: labs/lab-08-http-headers.md
+      - Lab 09 - Local socket client: labs/lab-09-socket-client.md
+      - Lab 10 - Defensive monitoring: labs/lab-10-monitoring.md
+  - Exercises:
+      - Problems: exercises/index.md
+      - Worked solutions: exercises/solutions.md
+  - Mini Projects: mini-projects/index.md
+  - Cheat Sheets: cheat-sheet.md
+  - Glossary: glossary.md
