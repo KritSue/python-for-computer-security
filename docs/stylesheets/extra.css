@@ -1,0 +1,4 @@
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary) {
+  color: var(--md-typeset-a-color);
+  border-color: var(--md-typeset-a-color);
+}
