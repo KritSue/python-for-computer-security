@@ -10,7 +10,7 @@ flowchart TD
     D --> E[Python tooling]
     E --> F[Networking fundamentals]
     F --> G[Security Python]
-    G --> H[Security automation]
+    G --> H[Defensive automation]
     H --> I[Mini projects]
 ```
 

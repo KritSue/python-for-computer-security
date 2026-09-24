@@ -1,22 +1,74 @@
 # Python for Computer Security
 
-Welcome! This course assumes you have **never programmed before**. We begin by installing the tools and making Python display a line of text. Later, you will read files, summarize made-up security logs, and inspect a small service on your own computer.
+**Learn Python from zero, then apply it to practical defensive security.** Follow a clear path from your first program to safe networking examples, synthetic log analysis, and small automation projects.
 
-!!! tip "How to study"
-    Keep Python open while you read. Type examples yourself, change one value, and predict what will happen before running the code. A mistake is useful information: read the final line of the error, then find the named line in your file.
+[Start learning](getting-started/install-python.md){ .md-button .md-button--primary }
+[View roadmap](roadmap.md){ .md-button }
+[View on GitHub](https://github.com/KritSue/python-for-computer-security){ .md-button }
 
-## Your first steps
+## Start wherever you are
 
-Start with the [learning roadmap](roadmap.md), then follow the setup pages in order: [install Python](getting-started/install-python.md), [set up VS Code](getting-started/vscode.md), learn a few [terminal basics](getting-started/terminal.md), and run [your first program](getting-started/first-program.md).
+No previous Python, terminal, Git, or networking experience is required. The [setup guide](getting-started/install-python.md) begins with installation, and each lesson builds on earlier ones. Type the examples, change a value, and try the [exercises](exercises/index.md) before opening the solutions.
 
-## What you will learn
+## Your learning path
 
-- Write small Python programs using values, decisions, repetition, and functions.
-- Organize related information in lists and dictionaries.
-- Read structured files and find patterns in text.
-- Understand the basics of IP addresses, ports, TCP, HTTP, and hashes.
-- Build safe, local tools that summarize synthetic security events.
+1. [Set up Python and run your first program](getting-started/first-program.md).
+2. Learn [Python fundamentals](python-basics/variables.md): values, decisions, loops, functions, and errors.
+3. Work with [data structures](data-structures/lists.md) and [files, CSV, JSON, and regex](practical-python/files.md).
+4. Use [modules and Python tooling](practical-python/modules.md).
+5. Understand [networking foundations](security-python/networking-basics.md) through local and authorized examples.
+6. Apply [hashing](security-python/hashing.md), [secure coding](security-python/secure-coding.md), and [log analysis](security-python/log-analysis.md).
+7. Practice with [guided labs](labs/index.md) and build a [small defensive project](mini-projects/index.md).
 
-## Safety promise
+The [full roadmap](roadmap.md) shows the progression and an eight-week study plan.
 
-Every network lab is limited to your own computer or an explicitly authorized service. Logs and usernames are invented. This course does not teach malware, credential theft, destructive tooling, or unauthorized access.
+## Explore the course
+
+<div class="grid cards" markdown>
+
+-   **Python foundations**
+
+    ---
+
+    Variables, conditions, loops, functions, and exceptions. [Start with variables](python-basics/variables.md).
+
+-   **Working with data**
+
+    ---
+
+    Lists, dictionaries, files, CSV, JSON, and text patterns. [Explore data structures](data-structures/lists.md).
+
+-   **Networking foundations**
+
+    ---
+
+    IP addresses, sockets, and HTTP with safe local examples. [Learn networking basics](security-python/networking-basics.md).
+
+-   **Security Python**
+
+    ---
+
+    Hashing, secure coding, and analysis of invented log events. [Explore security topics](security-python/hashing.md).
+
+-   **Guided labs**
+
+    ---
+
+    Ten practical labs using synthetic data and local services. [Browse the labs](labs/index.md).
+
+-   **Mini projects**
+
+    ---
+
+    Build a log summary, file-integrity manifest, or local HTTP metadata report. [Choose a project](mini-projects/index.md).
+
+</div>
+
+!!! tip "Learn by doing"
+    Keep Python open while you read. Run each example, make a small change, and use the error message to find what happened.
+
+## Safe practice
+
+Networking activities are limited to your own computer or systems you are explicitly authorized to inspect. Logs and usernames are invented. Keep real credentials and personal log data out of exercises and commits.
+
+See the [course repository](https://github.com/KritSue/python-for-computer-security) for the source and contribution guide, or visit my [engineering portfolio](https://github.com/KritSue).

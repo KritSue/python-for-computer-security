@@ -1,17 +1,28 @@
 # Python for Computer Security
 
-A free, beginner-first course for an MSc Computer Security student starting with **zero programming experience**. It begins with installing Python and running one file, then builds toward defensive log analysis and safe networking examples.
+**Learn Python from zero, then apply it to practical defensive security.** This free course begins with a first program and builds toward safe networking examples, synthetic log analysis, secure coding, guided labs, and small automation projects.
+
+[Start the course](https://kritsue.github.io/python-for-computer-security/) · [View the roadmap](https://kritsue.github.io/python-for-computer-security/roadmap/) · [Browse the labs](https://kritsue.github.io/python-for-computer-security/labs/) · [View the repository](https://github.com/KritSue/python-for-computer-security)
 
 ## Who this is for
 
-You do not need previous programming, terminal, Git, or networking experience. You need a computer where you can install Python and a text editor. Examples are written for Python 3.10+; the networking labs use localhost and the course data is synthetic.
+Complete beginners are welcome. You do not need previous programming, terminal, Git, or networking experience. Start with the setup pages and move through the course in order. Examples are written for Python 3.10+ using invented data; networking labs use localhost or an explicitly authorized system.
 
-## Start here
+## Learning path
 
-1. Read the [learning roadmap](docs/roadmap.md).
-2. Follow [Install Python](docs/getting-started/install-python.md), [VS Code](docs/getting-started/vscode.md), and [Terminal basics](docs/getting-started/terminal.md).
-3. Run [your first program](docs/getting-started/first-program.md).
-4. Work through each section in order. Try the [exercises](docs/exercises/index.md) before opening [solutions](docs/exercises/solutions.md).
+1. **Get set up:** [install Python](docs/getting-started/install-python.md), [set up VS Code](docs/getting-started/vscode.md), learn [terminal basics](docs/getting-started/terminal.md), and run [your first program](docs/getting-started/first-program.md).
+2. **Learn Python fundamentals:** values, conditions, loops, functions, and errors in [Python Basics](docs/python-basics/variables.md).
+3. **Work with data:** lists and dictionaries, then files, CSV, JSON, and regex in [Data Structures](docs/data-structures/lists.md) and [Practical Python](docs/practical-python/files.md).
+4. **Use Python tooling:** modules, packages, virtual environments, and command-line arguments in [Practical Python](docs/practical-python/modules.md).
+5. **Build networking foundations:** IP addresses, sockets, and HTTP in [Python for Computer Security](docs/security-python/networking-basics.md).
+6. **Apply Python defensively:** hashing, secure coding, and synthetic log analysis in [Security Python](docs/security-python/hashing.md).
+7. **Practice:** complete the [labs](docs/labs/index.md), then choose a [mini project](docs/mini-projects/index.md).
+
+The [full roadmap](docs/roadmap.md) includes an eight-week plan and checkpoints.
+
+## Hands-on practice
+
+Ten guided [labs](docs/labs/index.md) progress from printing text to parsing invented security events, hashing a sample file, and inspecting a local HTTP or socket service. The [mini projects](docs/mini-projects/index.md) offer a local log summary, file-integrity manifest, or loopback HTTP metadata report. Try each [exercise](docs/exercises/index.md) before opening its [worked solution](docs/exercises/solutions.md).
 
 ## Run an example
 
@@ -31,20 +42,12 @@ mkdocs serve
 
 Open the local URL printed in the terminal. To build exactly as CI does, run `mkdocs build --strict`; generated pages go into `site/`.
 
-## Roadmap
+## Safety and ethical use
 
-Zero programming knowledge → Python fundamentals → data structures → files, JSON, and regex → Python tooling → networking fundamentals → security Python → defensive automation → mini projects. The [roadmap page](docs/roadmap.md) includes a visual diagram and an eight-week schedule.
+Security activities are educational and defensive. Use network examples only on localhost or systems you own or are explicitly authorized to inspect. Never commit real secrets or personal log data. Course examples use synthetic data.
 
-## GitHub Pages
+## Contributing and license
 
-The GitHub Actions workflow builds and deploys the site on pushes to `main` at [KritSue/python-for-computer-security](https://github.com/KritSue/python-for-computer-security). For future changes, push the committed `main` branch:
+Corrections and beginner-friendly improvements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). Course text, examples, and configuration use the [MIT License](LICENSE); third-party dependencies keep their own licenses.
 
-```console
-git push origin main
-```
-
-In GitHub, open **Settings → Pages** and set the build source to **GitHub Actions**. After the deployment workflow succeeds, the site should be available at [https://KritSue.github.io/python-for-computer-security/](https://KritSue.github.io/python-for-computer-security/).
-
-## Safety and license
-
-Security activities are educational and defensive. Use network examples only on localhost or systems you are authorized to inspect. Never commit real secrets or personal log data. Course text, examples, and configuration use the MIT License; third-party dependencies keep their own licenses.
+Explore more engineering work on my [GitHub profile](https://github.com/KritSue).
