@@ -1,18 +1,16 @@
 # Learning roadmap
 
-Follow the arrows in order. Each stage uses ideas from earlier stages, so a little daily practice is more useful than skipping ahead.
+Follow these stages in order. Each uses ideas from earlier lessons, so a little daily practice is more useful than skipping ahead.
 
-```mermaid
-flowchart TD
-    A[Zero programming knowledge] --> B[Python fundamentals]
-    B --> C[Data structures]
-    C --> D[Files / JSON / Regex]
-    D --> E[Python tooling]
-    E --> F[Networking fundamentals]
-    F --> G[Security Python]
-    G --> H[Defensive automation]
-    H --> I[Mini projects]
-```
+1. **Start from zero:** [install Python](getting-started/install-python.md) and run [your first program](getting-started/first-program.md).
+2. **Python fundamentals:** learn [variables](python-basics/variables.md), decisions, loops, and functions.
+3. **Data structures:** organize information in [lists](data-structures/lists.md) and dictionaries.
+4. **Files and text:** work with [files](practical-python/files.md), JSON, and regex.
+5. **Python tooling:** use [modules and packages](practical-python/modules.md).
+6. **Networking foundations:** understand [IP addresses and local services](security-python/networking-basics.md).
+7. **Security Python:** practice [hashing](security-python/hashing.md), log analysis, and secure coding.
+8. **Defensive automation:** apply the lessons in [guided labs](labs/index.md).
+9. **Mini projects:** build a small [local defensive tool](mini-projects/index.md).
 
 ## Suggested eight-week plan
 
