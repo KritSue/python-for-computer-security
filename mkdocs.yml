@@ -1,7 +1,7 @@
 site_name: Python for Computer Security
 site_description: A beginner-first Python course for MSc Computer Security students
-site_url: https://YOUR_GITHUB_USERNAME.github.io/python-for-computer-security/
-repo_url: https://github.com/YOUR_GITHUB_USERNAME/python-for-computer-security
+site_url: https://KritSue.github.io/python-for-computer-security/
+repo_url: https://github.com/KritSue/python-for-computer-security
 repo_name: python-for-computer-security
 theme:
   name: material

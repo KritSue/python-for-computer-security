@@ -37,14 +37,13 @@ Zero programming knowledge → Python fundamentals → data structures → files
 
 ## GitHub Pages
 
-The GitHub Actions workflow builds and deploys the site on pushes to `main`. Create an empty GitHub repository named `python-for-computer-security`, then from this folder connect and push the prepared local repository:
+The GitHub Actions workflow builds and deploys the site on pushes to `main` at [KritSue/python-for-computer-security](https://github.com/KritSue/python-for-computer-security). For future changes, push the committed `main` branch:
 
 ```console
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/python-for-computer-security.git
-git push -u origin main
+git push origin main
 ```
 
-In GitHub, open **Settings → Pages** and set the build source to **GitHub Actions**. Replace `YOUR_GITHUB_USERNAME` in `mkdocs.yml` with your GitHub username before publishing.
+In GitHub, open **Settings → Pages** and set the build source to **GitHub Actions**. After the deployment workflow succeeds, the site should be available at [https://KritSue.github.io/python-for-computer-security/](https://KritSue.github.io/python-for-computer-security/).
 
 ## Safety and license
 
